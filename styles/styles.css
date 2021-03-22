@@ -1,0 +1,27 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: silver;
+    border-radius: 1vh;
+    font-size: 1.5vw;
+    position: sticky;
+    top: 0px;
+}
+
+#header-img {
+    width: 5%;
+    height: 5%;
+    margin: 1%;
+    border-style: outset;
+}
+
+#nav-bar {
+    display: flex;
+    margin: 1%;
+}
+
+.nav-link {
+    text-decoration-line: none; 
+    margin: 1vw;
+}
