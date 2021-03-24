@@ -9,6 +9,7 @@
     top: 0px;
     margin-bottom: 10%;
     height: 3vw;
+    z-index: 1;
 }
 
 #header-img {
@@ -83,6 +84,7 @@
 
 .img {
     margin-right: 3%;
+    width: 20%;
 }
 
 .img img {
@@ -103,4 +105,83 @@
 
 .info p {
     font-size: 1.3vw;
+}
+
+#demo {
+    height: 40vw;
+    position: relative;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#pricing {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#pricing div h2 {
+    font-size: 2vw;
+}
+
+#pricing div p {
+    font-size: 1.3vw;
+    margin-right: 30%;
+}
+
+#pricing div ul {
+    font-size: 1.3vw;
+    margin-right: 20%;
+}
+
+#bronce {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-style: outset;
+    border-color: sandybrown;
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 33%;
+}
+
+#bronce:hover {
+    border-style: inset;
+}
+
+#silver {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-style: outset;
+    border-color: silver;
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 33%;
+}
+
+#silver:hover {
+    border-style: inset;
+}
+
+#gold {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-style: outset;
+    border-color: goldenrod;
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 33%;
+}
+
+#gold:hover {
+    border-style: inset;
 }
