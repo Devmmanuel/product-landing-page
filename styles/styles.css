@@ -125,6 +125,7 @@
     display: flex;
     margin-right: 10%;
     margin-left: 10%;
+    margin-bottom: 10%;
 }
 
 #pricing div h2 {
@@ -184,4 +185,26 @@
 
 #gold:hover {
     border-style: inset;
+}
+
+footer {
+    background-color: #14F7E4;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 1.5vw;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+footer div a {
+    text-decoration-line: none;
+}
+
+#developer, #icons, #vimeo {
+    text-align: justify;
 }
