@@ -18,3 +18,5 @@ Project #3 of Responsive Web Design Certification by [FreeCodeCamp](https://free
 - **Historia de Usuario #13:** La barra de navegación debe estar siempre en la parte superior del viewport.
 - **Historia de Usuario #14:** Mi página de aterrizaje de producto debería tener al menos una media query.
 - **Historia de Usuario #15:** Mi página de aterrizaje de producto debería utilizar CSS flexbox al menos una vez.
+
+### Proyecto en vivo [aquí](https://devmmanuel.github.io/product-landing-page/)
